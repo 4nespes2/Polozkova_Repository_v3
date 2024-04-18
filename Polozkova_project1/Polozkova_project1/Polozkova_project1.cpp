@@ -7,11 +7,14 @@ int inputx() {
     int x;
     cout << "¬ведите натуральное число X: ";
     cin >> x;
-    return x
+    return x;
 }
 
 int inputa() {
-
+    int a;
+    cout << "¬ведите цифру A: ";
+    cin >> a;
+    return a;
 }
 
 bool XnotinA(int x, int a) {
