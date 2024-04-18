@@ -4,7 +4,10 @@
 using namespace std;
 
 int inputx() {
-
+    int x;
+    cout << "¬ведите натуральное число X: ";
+    cin >> x;
+    return x
 }
 
 int inputa() {
