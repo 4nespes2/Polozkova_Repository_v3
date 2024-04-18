@@ -18,7 +18,12 @@ int inputa() {
 }
 
 bool XnotinA(int x, int a) {
-
+    if (to_string(x).find(to_string(a)) == string::npos) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 bool XdoubleA(int x, int a) {
