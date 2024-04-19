@@ -4,7 +4,22 @@
 using namespace std;
 
 int inputx() {
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+  
+=======
+    int x;
+    cout << "¬ведите натуральное число X: ";
+    cin >> x;
+    return x;
+>>>>>>> 76eb10703dd6b59128a259afecb28548cf16f929
+>>>>>>> 71000e23e75643d8dec1ae6dc48318c231f80a6f
+>>>>>>> 2afb8a8d1d086fa3dff4b5287f68bed14ca7326d
 }
 
 int inputa() {
@@ -12,7 +27,16 @@ int inputa() {
 }
 
 bool XnotinA(int x, int a) {
+<<<<<<< HEAD
     
+=======
+    if (to_string(x).find(to_string(a)) == string::npos) {
+        return true;
+    }
+    else {
+        return false;
+    }
+>>>>>>> 2afb8a8d1d086fa3dff4b5287f68bed14ca7326d
 }
 
 bool XdoubleA(int x, int a) {
