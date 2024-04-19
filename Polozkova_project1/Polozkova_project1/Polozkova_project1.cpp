@@ -4,14 +4,21 @@
 using namespace std;
 
 int inputx() {
+<<<<<<< HEAD
+  
+=======
     int x;
     cout << "¬ведите натуральное число X: ";
     cin >> x;
     return x;
+>>>>>>> 76eb10703dd6b59128a259afecb28548cf16f929
 }
 
 int inputa() {
-
+    int a;
+    cout << "¬ведите цифру A: ";
+    cin >> a;
+    return a;
 }
 
 bool XnotinA(int x, int a) {
