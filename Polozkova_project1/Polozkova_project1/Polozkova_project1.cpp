@@ -4,7 +4,18 @@
 using namespace std;
 
 int inputx() {
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+  
+=======
+    int x;
+    cout << "¬ведите натуральное число X: ";
+    cin >> x;
+    return x;
+>>>>>>> 76eb10703dd6b59128a259afecb28548cf16f929
+>>>>>>> 71000e23e75643d8dec1ae6dc48318c231f80a6f
 }
 
 int inputa() {
