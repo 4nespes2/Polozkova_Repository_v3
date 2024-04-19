@@ -4,26 +4,15 @@
 using namespace std;
 
 int inputx() {
-    int x;
-    cout << "¬ведите натуральное число X: ";
-    cin >> x;
-    return x;
+    
 }
 
 int inputa() {
-    int a;
-    cout << "¬ведите цифру A: ";
-    cin >> a;
-    return a;
+    
 }
 
 bool XnotinA(int x, int a) {
-    if (to_string(x).find(to_string(a)) == string::npos) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    
 }
 
 bool XdoubleA(int x, int a) {
